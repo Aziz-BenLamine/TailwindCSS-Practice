@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Container & Spacing</title>
+    <style>
+      body {
+        padding: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Margin -->
+    <!-- https://tailwindcss.com/docs/margin -->
+    <h3>1.Margin</h3>
+    <div class="m-4 bg-yellow-400 text-white">Herzeleid</div>
+    <div class="mx-10 bg-blue-400">MARGIN X</div>
+    <div class="my-10 bg-blue-400">MARGIN Y</div>
+    <div class="ml-10 bg-blue-400">MARGIN L</div>
+    <div class="mr-10 bg-blue-400">MARGIN R</div>
+    <div class="mt-10 bg-blue-400">MARGIN T</div>
+    <div class="mb-10 bg-blue-400">MARGIN B</div>
+    <!-- Arbitrary Spacing -->
+
+    <div class="m-10 bg-slate-700">2.Margin All Around</div>
+
+    <!-- Padding -->
+    <!-- https://tailwindcss.com/docs/padding -->
+    <h3>3.Padding</h3>
+    <div class="p-4 bg-lime-300">Padding bof</div>
+
+    <!-- https://tailwindcss.com/docs/space -->
+    <!-- Space Between X -->
+    <!-- Space Between Y -->
+    <h3>4.Space between</h3>
+    <div class="flex space-x-4">
+      <div class="p-3 bg-teal-100">1</div>
+      <div class="p-3 bg-teal-100">2</div>
+      <div class="p-3 bg-teal-100">3</div>
+    </div>
+
+    <div class="flex-col space-y-2">
+      <div class="p-3 bg-teal-100">1</div>
+      <div class="p-3 bg-teal-100">2</div>
+      <div class="p-3 bg-teal-100">3</div>
+    </div>
+  </body>
+</html>
